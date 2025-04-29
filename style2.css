@@ -1,0 +1,141 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f6f6f6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h1 {
+  border-bottom: 3px solid #6200ea;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: #DEB887
+}
+
+header h2 {
+  margin: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+nav button {
+  flex: 1;
+  padding: 10px;
+  background: #eee;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav .active {
+  border-bottom: 3px solid #6200ea;
+  background: #fff;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.faq-section h3 {
+  margin-bottom: 15px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-item button {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  border: none;
+  background: #f0f0f0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.faq-item p {
+  margin: 0;
+  padding: 10px;
+  background: #f9f9f9;
+  border-left: 4px solid #6200ea;
+}
+
+.hidden {
+  display: none;
+}
+
+.show-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #6200ea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-box {
+  margin-top: 30px;
+  background: #e8eaf6;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-box h4 {
+  margin-bottom: 5px;
+}
+
+.contact-button {
+  margin-top: 10px;
+  background: #6200ea;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.wave {
+  animation: wave 2s infinite;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}

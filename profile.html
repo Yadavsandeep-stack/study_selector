@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style6.css') }}">
+</head>
+<body>
+    <header><h1>Profile</h1></header>
+    <div class="container">
+        <div class="home">
+            <a href="{{ url_for('homepage') }}">Home</a>
+        <a href="{{ url_for('logout') }}">Logout</a>
+        </div>
+        <div class="Profile">
+            
+            <div class="profile-info">
+                <div class="profile-picture">
+                    <img src="{{ url_for('static', filename='images/user.jpg') }}" alt="user" />
+                    </div>
+                    <div style="font-size: x-large"class="profile-details">
+                        <h2>  <p>Welcome, {{ student.username }} !</p></h2>
+                    
+                        <p><strong>Username : </strong>{{student.username}}</p>
+                        <p><strong>Email : </strong>{{student.email}}</p>
+                        <p><strong>Password : </strong>{{student.password}}</p>
+                        <p><strong>Year : </strong>{{student.year}}</p>
+                        </div>
+                        </div>
+                        <div class="profile-links">
+                            <a href="#">Edit Profile</a>
+                            <a href="#">Delete Profile</a>
+                            </div>
+                            </div>
+                            </div>
+                            </body>
+
+
+                    <!-- </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>-->
+</html>

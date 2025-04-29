@@ -1,0 +1,34 @@
+body{
+    background-color: #e38b8b;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.container{
+    background-color: #dbcfcf;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    /* max-width: 600px; */
+    margin: auto;
+    width: 50%;
+    height:50px
+
+
+}
+footer{
+    background-color: #dbcfcf;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

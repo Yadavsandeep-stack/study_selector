@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style8.css') }}">
+</head>
+<body
+    <div class="container">
+        <h2>Users studying "{{ subject }}" in "{{ year }}"</h2>
+    
+        {% if results %}
+            <ul>
+                {% for user in results %}
+                    <li>{{ user.username }} ({{ user.email }})</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No users found for this subject and year.</p>
+        {% endif %}
+
+        
+    </div>
+    <footer>
+        <a href="{{ url_for('study_form') }}">← Back to Search</a>
+
+    </footer>    
+    
+</body>
+</html>

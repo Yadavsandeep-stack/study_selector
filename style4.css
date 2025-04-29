@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fa;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.container-fluid{
+    background-color: #337fbd;
+    width: 100%;
+    padding: 20px 0;
+}
+.login-container {
+    background-color: #d0eaff; /* Soft blue */
+    padding: 40px 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 5px;
+    display: block;
+    align-content: center;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.login-container .Register{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    display: block;
+    align-content:center;
+}
+.login-container .Register:hover{
+    color: #ef59a4;
+    /* padding-bottom: 10px; */
+
+}
+.login-container .forgot{
+    justify-content: right;
+    text-align:right;
+
+    right: 0;
+    padding-right: 10px;
+    /* color:#ef59a4 */
+}
+
+/* Headline */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #294585;
+}
+
+/* Form structure */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+input[type="text"],
+
+input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+    margin-bottom: 10px;
+}
+input[type="email"]{
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+    margin-bottom: 10px;
+
+}
+input[type="year"]{
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+    margin-bottom: 10px;
+
+}
+input[type="subjects"]{
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+    margin-bottom: 10px;
+
+}
+input[type="email"]:focus{
+    border-color: #5075d2;
+    outline: none;
+}
+input[type="subjects"]:focus{
+    border-color: #5075d2;
+    outline: none;
+}
+input[type="year"]:focus{
+    border-color: #5075d2;
+    outline: none;
+}
+
+input[type="text"]:focus,
+
+input[type="password"]:focus {
+    border-color: #5075d2;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    width: 105.5%;
+    padding: 15px;
+    background-color: #5075d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #294585;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+/* .input
+    margin-bottom: 20px;
+} */

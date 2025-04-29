@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SS Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body>
+
+
+    <div class="container-fluid">
+        <div style="background-color:#FECD0B; height:15px;"></div>
+
+        <div class="container" style="padding: 30px 20px; text-align: center;">
+            <div class="logo">
+                <a href="#">
+                    <img src="{{ url_for('static', filename='images/logo-2.png') }}" alt="NIT Jalandhar" />
+                </a>
+            </div>
+        </div>
+
+        <div style="background-color:#FECD0B; height:15px;"></div>
+    </div>
+
+
+    <div class="login-container">
+        <h1>User Login</h1>
+        <form id="login-form" action="/login" method="POST">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input id="username" type="text" name="username" placeholder="Enter your username" required />
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input id="password" type="password" name="password" placeholder="Enter your password" required />
+            </div>
+            <div class="Register">
+                <p class="login-text">Don't have an account? <a href="{{ url_for('register') }}">Register</a></p>            
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="login-btn">Login</button>
+
+            </div>
+            <div style="text-align: right;margin-right: 20px">
+                <a  class ="forgot" href="#" id="forgot-password">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

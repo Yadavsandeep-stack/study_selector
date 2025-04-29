@@ -1,0 +1,53 @@
+body{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.container {
+    width: auto;
+    height: auto;
+    background-color: #f0f0f0;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px; /* Optional: makes the container have rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Horizontal offset, Vertical offset, Blur, Color */
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+    height:7vh;
+    font-weight: bold;
+    margin-top: 35px;
+    
+}
+.profile-picture{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    height: 200px;
+    
+    
+}
+h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.profile-links{
+    display: flex;
+justify-content: space-between;
+align-items: baseline;
+font-size: 21px;
+}
+.home{
+    display: flex;
+    font-size:21px;
+    justify-content: space-between;
+}

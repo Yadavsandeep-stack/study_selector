@@ -1,0 +1,84 @@
+body {
+    background-color: aliceblue; /* Light gray for a clean background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the body takes the full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    width: 50%; /* Set a fixed width */
+    height: auto; /* Adjust height based on content */
+    margin: auto; /* Center the container horizontally and vertically */
+    background-color: #b2edf4; /* White background for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark gray text for readability */
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid #e0e0e0; /* Light gray border */
+}
+
+.container:hover {
+    background-color: #f1f1f1; /* Slightly darker gray on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.box {
+    width: 96%; /* Adjust width to fit the container */
+    height: auto; /* Adjust height based on content */
+    background-color: #6ba9eb; /* Blue background for the box */
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    color: white; /* White text for contrast */
+    font-size: 24px;
+    margin-bottom: 1px;
+}
+
+.form-layout label {
+    font-size: 16px;
+    color: #333; /* Dark gray for labels */
+    margin-bottom: 5px;
+    display: block; /* Ensure labels are on top of inputs */
+}
+
+.search-bar {
+    width:90%;
+    padding: 10px;
+    margin-bottom: 15px; /* Add spacing between inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Light background for inputs */
+    color: #333; /* Dark gray text */
+    font-size:15px;
+}
+
+.search-bar:focus {
+    outline: none;
+    border-color: #007BFF; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow on focus */
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green background for the button */
+    color: white; /* White text for contrast */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}

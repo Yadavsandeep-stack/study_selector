@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage
+    </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}"></head>
+<body>
+    <header>
+        <h5 class = "logo">
+            <img src="{{ url_for('static', filename='images/logo3.png') }}" alt="logo" /></h5>
+    <nav class = "navigation">
+        <a href="{{ url_for('homepage') }}">Home</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('study_form') }}">Study</a>
+        <a href="{{ url_for('contact') }}">Contact</a>  
+        <!-- <button class="btnLogin-popup">Login -->
+        <!-- </button> -->
+    </nav>
+    </header>
+    
+
+
+    <!-- <script>
+        document.querySelector(".btnLogin-popup").addEventListener("click", function() {
+        window.location.href = "Login.html";
+        });
+    </script> -->
+</body>
+
+</html>
